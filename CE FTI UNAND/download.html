@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="assets/css/unpkg.com_swiper@8.1.6_swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>TEKNIK KOMPUTER</title>
+</head>
+<body>
+    <section class="download">
+        <div class="download-wrapper">
+            <div class="row1d">
+                <img src="img/download/dwnload.svg" alt="">
+            </div>
+            <div class="row2d">
+                <div class="a">Sukses!</div>
+                <div class="b">Dokumen Berhasil Didownload</div>
+            </div>
+            <div class="row3d">
+                <button id="close-button">Close</button>
+            </div>
+        </div>
+    </section> 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/css/main.js/main.js"></script>
+    <script src="assets/css/main.js/unpkg.com_swiper@8.1.6_swiper-bundle.min.js"></script>
+    <script>
+        // Menangani klik tombol "Close"
+        document.getElementById('close-button').addEventListener('click', () => {
+          // Menutup jendela halaman baru
+          window.close();
+        });
+      </script>
+</body>
+</html>
